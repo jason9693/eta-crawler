@@ -10,5 +10,10 @@ telegram_bot = {
 
 everytime = {
     'id': os.getenv('EVERYTIME_ID'),
-    'password': os.getenv('EVERYTIME_PASSWORD')
+    'password': os.getenv('EVERYTIME_PASSWORD'),
+    'board': os.getenv('EVERYTIME_BOARD_ID')
+}
+
+saved = {
+    "file_name": os.getenv("BOARD_NAME")
 }

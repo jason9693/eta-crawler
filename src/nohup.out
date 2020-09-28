@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 219, in <module>
+    main()
+  File "main.py", line 199, in main
+    save('test.json', data)
+  File "main.py", line 187, in save
+    for result in results:
+  File "/Users/kakao/python/everytimeless-bot/src/everytime.py", line 66, in get_list_and_show_articles
+    ids = self.show_board(number, i)['articles']
+  File "/Users/kakao/python/everytimeless-bot/src/everytime.py", line 56, in show_article
+    'title': soup.find('article')['title'],
+TypeError: 'NoneType' object is not subscriptable
